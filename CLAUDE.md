@@ -6,11 +6,11 @@ Full product strategy: [docs/HUMM.md](docs/HUMM.md)
 
 ## Architecture
 
-- **Workspace + SPM package** — `Humm.xcworkspace` wraps a thin app shell and `HummPackage`
-- **All feature code goes in `HummPackage/Sources/HummFeature/`** — the app target (`Humm/`) is just the entry point, don't add code there
+- **Standard Xcode project** — `Humm.xcodeproj` with 3 targets (app, unit tests, UI tests)
+- **All code lives in `Humm/`** — organized by role (Models/, Views/, Components/, Design/)
 - **MV pattern, not MVVM** — no ViewModels. Use @State, @Observable, @Environment, @Binding directly in views. Business logic lives in services/clients, not view models
-- **Swift 6.1+ strict concurrency** — async/await, actors, @MainActor. No GCD
-- **iOS 17.0+**, iPhone only (v1)
+- **Swift 6 with approachable concurrency** — async/await, @MainActor by default, @concurrent for background work. No GCD
+- **iOS 26+**, iPhone only (v1)
 
 ## Domain Context
 
@@ -22,7 +22,7 @@ Full product strategy: [docs/HUMM.md](docs/HUMM.md)
 
 ## Testing
 
-Use **Swift Testing** framework (not XCTest). Tests live in `HummPackage/Tests/HummFeatureTests/`.
+Use **Swift Testing** framework (not XCTest) for unit tests. UI tests use XCTest/XCUITest.
 
 ```swift
 @Test func example() async throws {
@@ -32,15 +32,20 @@ Use **Swift Testing** framework (not XCTest). Tests live in `HummPackage/Tests/H
 
 ## Build & Run
 
-Prefer **XcodeBuildMCP tools** over raw xcodebuild CLI when available. The workspace is `Humm.xcworkspace`, scheme is `Humm`.
+Prefer **XcodeBuildMCP tools** over raw xcodebuild CLI when available. Open `Humm.xcodeproj` directly (no workspace needed).
 
 ## Key Paths
 
 | What | Where |
 |------|-------|
 | App entry point | `Humm/HummApp.swift` |
-| All feature code | `HummPackage/Sources/HummFeature/` |
-| Tests | `HummPackage/Tests/HummFeatureTests/` |
+| Root view | `Humm/ContentView.swift` |
+| Data models & services | `Humm/Models/` |
+| Feature views | `Humm/Views/` |
+| Reusable UI components | `Humm/Components/` |
+| Design tokens & modifiers | `Humm/Design/` |
+| Unit tests | `HummTests/` |
+| UI tests | `HummUITests/` |
 | Build configs | `Config/*.xcconfig` |
-| Entitlements | `Config/Humm.entitlements` (edit XML directly to add capabilities) |
+| Entitlements | `Humm/Humm.entitlements` |
 | Product strategy | `docs/HUMM.md` |

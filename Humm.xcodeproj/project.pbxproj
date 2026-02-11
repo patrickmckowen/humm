@@ -6,28 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8B41F6832DEDD23B001A66F9 /* HummFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 8B41F6822DEDD23B001A66F9 /* HummFeature */; };
-		8B41F6852DEDD25C001A66F9 /* HummFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 8B41F6842DEDD25C001A66F9 /* HummFeature */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		8B41F65D2DEDD0D6001A66F9 /* PBXContainerItemProxy */ = {
+		4840C4292966488A95A59985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8B41F63D2DEDD0D5001A66F9 /* Project object */;
+			containerPortal = 86E42B1E86CD4AD0B1A387AE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B41F6442DEDD0D5001A66F9;
+			remoteGlobalIDString = 32A70BA4664B4C6E81FA3327;
+			remoteInfo = Humm;
+		};
+		5E0A6AF37C16416B80DD0F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86E42B1E86CD4AD0B1A387AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A70BA4664B4C6E81FA3327;
 			remoteInfo = Humm;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B41F6452DEDD0D5001A66F9 /* Humm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B41F65C2DEDD0D6001A66F9 /* Humm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Humm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A956E8A76684669BCC60482 /* Humm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A391181CDE54F8DB23394B8 /* HummTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HummTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE4B6B3CDAC47F69EC4FC28 /* HummUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HummUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8BD71C0A2DEE41E000CEDD92 /* Exceptions for "Config" folder in "Humm" target */ = {
+		E81CEFDB084742FC8C6D8192 /* Exceptions for "Config" folder in "Humm" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Debug.xcconfig,
@@ -35,25 +38,30 @@
 				Shared.xcconfig,
 				Tests.xcconfig,
 			);
-			target = 8B41F6442DEDD0D5001A66F9 /* Humm */;
+			target = 32A70BA4664B4C6E81FA3327 /* Humm */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8B41F6472DEDD0D5001A66F9 /* Humm */ = {
+		1FE8BA74A11F4CEE918649EE /* Humm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Humm;
 			sourceTree = "<group>";
 		};
-		8B41F65F2DEDD0D6001A66F9 /* HummUITests */ = {
+		49627D43F37F4B2E9E443914 /* HummTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HummTests;
+			sourceTree = "<group>";
+		};
+		FBD860695A364F2083B4885E /* HummUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HummUITests;
 			sourceTree = "<group>";
 		};
-		8BD71C052DEE41D800CEDD92 /* Config */ = {
+		DCD7775EFBA342188CCD2ACA /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8BD71C0A2DEE41E000CEDD92 /* Exceptions for "Config" folder in "Humm" target */,
+				E81CEFDB084742FC8C6D8192 /* Exceptions for "Config" folder in "Humm" target */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -61,151 +69,177 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B41F6422DEDD0D5001A66F9 /* Frameworks */ = {
+		41F9CBEEFF87429ABF80B35F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B41F6852DEDD25C001A66F9 /* HummFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B41F6592DEDD0D6001A66F9 /* Frameworks */ = {
+		CD4600AD0F0D4A88BEED2AF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B41F6832DEDD23B001A66F9 /* HummFeature in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5758D5B6544AB8BA07DD8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B41F63C2DEDD0D5001A66F9 = {
+		6956B9F7113F469A8C740CF9 = {
 			isa = PBXGroup;
 			children = (
-				8BD71C052DEE41D800CEDD92 /* Config */,
-				8B41F6472DEDD0D5001A66F9 /* Humm */,
-				8B41F65F2DEDD0D6001A66F9 /* HummUITests */,
-				8B41F6812DEDD23B001A66F9 /* Frameworks */,
-				8B41F6462DEDD0D5001A66F9 /* Products */,
+				1FE8BA74A11F4CEE918649EE /* Humm */,
+				49627D43F37F4B2E9E443914 /* HummTests */,
+				FBD860695A364F2083B4885E /* HummUITests */,
+				DCD7775EFBA342188CCD2ACA /* Config */,
+				EC5979CACDD5420892A57B76 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B41F6462DEDD0D5001A66F9 /* Products */ = {
+		EC5979CACDD5420892A57B76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B41F6452DEDD0D5001A66F9 /* Humm.app */,
-				8B41F65C2DEDD0D6001A66F9 /* Humm.xctest */,
+				9A956E8A76684669BCC60482 /* Humm.app */,
+				2A391181CDE54F8DB23394B8 /* HummTests.xctest */,
+				AFE4B6B3CDAC47F69EC4FC28 /* HummUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8B41F6812DEDD23B001A66F9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B41F6442DEDD0D5001A66F9 /* Humm */ = {
+		32A70BA4664B4C6E81FA3327 /* Humm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B41F6662DEDD0D6001A66F9 /* Build configuration list for PBXNativeTarget "Humm" */;
+			buildConfigurationList = 8317ABC9994C4A07B0FD7C0F /* Build configuration list for PBXNativeTarget "Humm" */;
 			buildPhases = (
-				8B41F6412DEDD0D5001A66F9 /* Sources */,
-				8B41F6422DEDD0D5001A66F9 /* Frameworks */,
-				8B41F6432DEDD0D5001A66F9 /* Resources */,
+				16D165F2456A4FCF974948FD /* Sources */,
+				41F9CBEEFF87429ABF80B35F /* Frameworks */,
+				783F63A81DD64B27BCE4C398 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8B41F6472DEDD0D5001A66F9 /* Humm */,
-				8BD71C052DEE41D800CEDD92 /* Config */,
+				1FE8BA74A11F4CEE918649EE /* Humm */,
+				DCD7775EFBA342188CCD2ACA /* Config */,
 			);
 			name = Humm;
-			packageProductDependencies = (
-				8B41F6842DEDD25C001A66F9 /* HummFeature */,
-			);
 			productName = Humm;
-			productReference = 8B41F6452DEDD0D5001A66F9 /* Humm.app */;
+			productReference = 9A956E8A76684669BCC60482 /* Humm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B41F65B2DEDD0D6001A66F9 /* HummUITests */ = {
+		88581B3C8ACC431BB9024E69 /* HummTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B41F66C2DEDD0D6001A66F9 /* Build configuration list for PBXNativeTarget "HummUITests" */;
+			buildConfigurationList = 9AED7D361AB34E69A5FC72E7 /* Build configuration list for PBXNativeTarget "HummTests" */;
 			buildPhases = (
-				8B41F6582DEDD0D6001A66F9 /* Sources */,
-				8B41F6592DEDD0D6001A66F9 /* Frameworks */,
-				8B41F65A2DEDD0D6001A66F9 /* Resources */,
+				F2F410829E84438B8EF78696 /* Sources */,
+				CD4600AD0F0D4A88BEED2AF1 /* Frameworks */,
+				3C7CE26910334B9D967C307F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B41F65E2DEDD0D6001A66F9 /* PBXTargetDependency */,
+				C676B464138E4710B1564068 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8B41F65F2DEDD0D6001A66F9 /* HummUITests */,
+				49627D43F37F4B2E9E443914 /* HummTests */,
+			);
+			name = HummTests;
+			productName = HummTests;
+			productReference = 2A391181CDE54F8DB23394B8 /* HummTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-testing";
+		};
+		2DCDE5CC3914449C82A53582 /* HummUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA2EED88CDB4660BCE03B6B /* Build configuration list for PBXNativeTarget "HummUITests" */;
+			buildPhases = (
+				BEAC6CE97515435F9773C11E /* Sources */,
+				6D5758D5B6544AB8BA07DD8B /* Frameworks */,
+				FF7A6990EB0E44A59CC9FB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D2B9BFD86E04A9EB881039A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBD860695A364F2083B4885E /* HummUITests */,
 			);
 			name = HummUITests;
-			packageProductDependencies = (
-				8B41F6822DEDD23B001A66F9 /* HummFeature */,
-			);
 			productName = HummUITests;
-			productReference = 8B41F65C2DEDD0D6001A66F9 /* Humm.xctest */;
+			productReference = AFE4B6B3CDAC47F69EC4FC28 /* HummUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B41F63D2DEDD0D5001A66F9 /* Project object */ = {
+		86E42B1E86CD4AD0B1A387AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					8B41F6442DEDD0D5001A66F9 = {
-						CreatedOnToolsVersion = 16.3;
+					32A70BA4664B4C6E81FA3327 = {
+						CreatedOnToolsVersion = 26.2;
 					};
-					8B41F65B2DEDD0D6001A66F9 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 8B41F6442DEDD0D5001A66F9;
+					88581B3C8ACC431BB9024E69 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 32A70BA4664B4C6E81FA3327;
+					};
+					2DCDE5CC3914449C82A53582 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 32A70BA4664B4C6E81FA3327;
 					};
 				};
 			};
-			buildConfigurationList = 8B41F6402DEDD0D5001A66F9 /* Build configuration list for PBXProject "Humm" */;
+			buildConfigurationList = ADE5EBB2944943B083E47EAC /* Build configuration list for PBXProject "Humm" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8B41F63C2DEDD0D5001A66F9;
+			mainGroup = 6956B9F7113F469A8C740CF9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8B41F6462DEDD0D5001A66F9 /* Products */;
+			productRefGroup = EC5979CACDD5420892A57B76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B41F6442DEDD0D5001A66F9 /* Humm */,
-				8B41F65B2DEDD0D6001A66F9 /* HummUITests */,
+				32A70BA4664B4C6E81FA3327 /* Humm */,
+				88581B3C8ACC431BB9024E69 /* HummTests */,
+				2DCDE5CC3914449C82A53582 /* HummUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B41F6432DEDD0D5001A66F9 /* Resources */ = {
+		783F63A81DD64B27BCE4C398 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B41F65A2DEDD0D6001A66F9 /* Resources */ = {
+		3C7CE26910334B9D967C307F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A6990EB0E44A59CC9FB6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,14 +249,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8B41F6412DEDD0D5001A66F9 /* Sources */ = {
+		16D165F2456A4FCF974948FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B41F6582DEDD0D6001A66F9 /* Sources */ = {
+		F2F410829E84438B8EF78696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC6CE97515435F9773C11E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,15 +273,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B41F65E2DEDD0D6001A66F9 /* PBXTargetDependency */ = {
+		C676B464138E4710B1564068 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B41F6442DEDD0D5001A66F9 /* Humm */;
-			targetProxy = 8B41F65D2DEDD0D6001A66F9 /* PBXContainerItemProxy */;
+			target = 32A70BA4664B4C6E81FA3327 /* Humm */;
+			targetProxy = 4840C4292966488A95A59985 /* PBXContainerItemProxy */;
+		};
+		5D2B9BFD86E04A9EB881039A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A70BA4664B4C6E81FA3327 /* Humm */;
+			targetProxy = 5E0A6AF37C16416B80DD0F62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8B41F6642DEDD0D6001A66F9 /* Debug */ = {
+		D88C5A18AACF4D49B96277D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,19 +338,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
-		8B41F6652DEDD0D6001A66F9 /* Release */ = {
+		959F2AFB22C7489AB6043E72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,20 +398,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8B41F6672DEDD0D6001A66F9 /* Debug */ = {
+		D800A9C1B0D54F199A2EC506 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 8BD71C052DEE41D800CEDD92 /* Config */;
+			baseConfigurationReferenceAnchor = DCD7775EFBA342188CCD2ACA /* Config */;
 			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -382,13 +432,12 @@
 					"@executable_path/Frameworks",
 				);
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		8B41F6682DEDD0D6001A66F9 /* Release */ = {
+		B4F0C0E20EF447EF958AEA62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 8BD71C052DEE41D800CEDD92 /* Config */;
+			baseConfigurationReferenceAnchor = DCD7775EFBA342188CCD2ACA /* Config */;
 			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -407,33 +456,66 @@
 					"@executable_path/Frameworks",
 				);
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		8B41F66D2DEDD0D6001A66F9 /* Debug */ = {
+		B7E046215F394C2BA4142BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 8BD71C052DEE41D800CEDD92 /* Config */;
-			baseConfigurationReferenceRelativePath = Tests.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMHZALFPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmckowen.humm.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Humm";
+			};
+			name = Debug;
+		};
+		25F5363C59C846A8AF9C9140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMHZALFPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmckowen.humm.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Humm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Humm";
+			};
+			name = Release;
+		};
+		EB8B42758A3346EEA5799D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMHZALFPZ;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmckowen.humm.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Humm;
 			};
 			name = Debug;
 		};
-		8B41F66E2DEDD0D6001A66F9 /* Release */ = {
+		7BD15B60E0B943B4AA8640E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 8BD71C052DEE41D800CEDD92 /* Config */;
-			baseConfigurationReferenceRelativePath = Tests.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMHZALFPZ;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmckowen.humm.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Humm;
 			};
@@ -442,45 +524,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B41F6402DEDD0D5001A66F9 /* Build configuration list for PBXProject "Humm" */ = {
+		ADE5EBB2944943B083E47EAC /* Build configuration list for PBXProject "Humm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B41F6642DEDD0D6001A66F9 /* Debug */,
-				8B41F6652DEDD0D6001A66F9 /* Release */,
+				D88C5A18AACF4D49B96277D7 /* Debug */,
+				959F2AFB22C7489AB6043E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B41F6662DEDD0D6001A66F9 /* Build configuration list for PBXNativeTarget "Humm" */ = {
+		8317ABC9994C4A07B0FD7C0F /* Build configuration list for PBXNativeTarget "Humm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B41F6672DEDD0D6001A66F9 /* Debug */,
-				8B41F6682DEDD0D6001A66F9 /* Release */,
+				D800A9C1B0D54F199A2EC506 /* Debug */,
+				B4F0C0E20EF447EF958AEA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B41F66C2DEDD0D6001A66F9 /* Build configuration list for PBXNativeTarget "HummUITests" */ = {
+		9AED7D361AB34E69A5FC72E7 /* Build configuration list for PBXNativeTarget "HummTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B41F66D2DEDD0D6001A66F9 /* Debug */,
-				8B41F66E2DEDD0D6001A66F9 /* Release */,
+				B7E046215F394C2BA4142BD3 /* Debug */,
+				25F5363C59C846A8AF9C9140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA2EED88CDB4660BCE03B6B /* Build configuration list for PBXNativeTarget "HummUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8B42758A3346EEA5799D61 /* Debug */,
+				7BD15B60E0B943B4AA8640E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8B41F6822DEDD23B001A66F9 /* HummFeature */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = HummFeature;
-		};
-		8B41F6842DEDD25C001A66F9 /* HummFeature */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = HummFeature;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 8B41F63D2DEDD0D5001A66F9 /* Project object */;
+	rootObject = 86E42B1E86CD4AD0B1A387AE /* Project object */;
 }
