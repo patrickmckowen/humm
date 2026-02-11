@@ -1,0 +1,11 @@
+import SwiftUI
+import HummFeature
+
+@main
+struct HummApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
