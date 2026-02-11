@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1630"
+   LastUpgradeVersion = "2620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B41F6442DEDD0D5001A66F9"
+               BlueprintIdentifier = "32A70BA4664B4C6E81FA3327"
                BuildableName = "Humm.app"
                BlueprintName = "Humm"
                ReferencedContainer = "container:Humm.xcodeproj">
@@ -30,10 +30,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Humm.xctestplan">
-         </TestPlanReference>
-         <TestPlanReference
-            reference = "container:Humm/Humm.xctestplan"
+            reference = "container:Humm.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -42,8 +39,18 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B41F65B2DEDD0D6001A66F9"
-               BuildableName = "Humm.xctest"
+               BlueprintIdentifier = "88581B3C8ACC431BB9024E69"
+               BuildableName = "HummTests.xctest"
+               BlueprintName = "HummTests"
+               ReferencedContainer = "container:Humm.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2DCDE5CC3914449C82A53582"
+               BuildableName = "HummUITests.xctest"
                BlueprintName = "HummUITests"
                ReferencedContainer = "container:Humm.xcodeproj">
             </BuildableReference>
@@ -64,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B41F6442DEDD0D5001A66F9"
+            BlueprintIdentifier = "32A70BA4664B4C6E81FA3327"
             BuildableName = "Humm.app"
             BlueprintName = "Humm"
             ReferencedContainer = "container:Humm.xcodeproj">
@@ -81,7 +88,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B41F6442DEDD0D5001A66F9"
+            BlueprintIdentifier = "32A70BA4664B4C6E81FA3327"
             BuildableName = "Humm.app"
             BlueprintName = "Humm"
             ReferencedContainer = "container:Humm.xcodeproj">
